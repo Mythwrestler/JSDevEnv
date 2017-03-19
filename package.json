@@ -1,7 +1,7 @@
 {
   "name": "javascript-development-environment",
   "version": "1.0.0",
-  "description": "JavaScript development environment Pluralsight course by Cory House",
+  "description": "Babel, Typescript, Angular JS Development Environment",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:src",
@@ -30,10 +30,10 @@
     "@angular/compiler": ">=2.3.1 <5.0.0 || >=4.0.0-beta <5.0.0",
     "@angular/core": ">=2.3.1 <5.0.0 || >=4.0.0-beta <5.0.0",
     "@angular/forms": "^2.4.10",
-    "@angular/http": "2.4.10",
-    "@angular/platform-browser-dynamic": "2.4.10",
-    "@angular/platform-browser": "2.4.10",
-    "@angular/router": "3.0.0",
+    "@angular/http": "^2.4.10",
+    "@angular/platform-browser-dynamic": "^2.4.10",
+    "@angular/platform-browser": "^2.4.10",
+    "@angular/router": "^3.4.10",
     "@angular/tsc-wrapped": ">=0.5.0 <5.0.0 || >=4.0.0-beta <5.0.0",
 
     "@types/chai": "^3.4.32",
@@ -99,7 +99,7 @@
     "webpack-hot-middleware": "2.13.0",
     "webpack-md5-hash": "0.0.5",
     "webpack": "1.13.2",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.7.2"
   },
 
   "optionalDependencies": {
